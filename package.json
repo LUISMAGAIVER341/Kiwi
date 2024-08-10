@@ -1,10 +1,11 @@
 {
-  "name": "kiwi-desktop",
-  "type": "module",
+  "name": "kiwi-desktop-app-dev",
   "version": "0.0.1",
+  "type": "module",
   "description": "The Kiwi Flavour for Typescript",
-  "main": "index.ts",
+  "main": "app.js",
   "scripts": {
+    "tauri": "tauri",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,8 +19,12 @@
   },
   "homepage": "https://github.com/LUISMAGAIVER341/Kiwi#readme",
   "dependencies": {
+    "electron": "^31.3.1",
     "express": "^4.19.2",
     "path": "^0.12.7",
     "simple-stylesheet": "^1.0.2"
+  },
+  "devDependencies": {
+    
   }
 }

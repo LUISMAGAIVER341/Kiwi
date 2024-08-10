@@ -1,22 +1,7 @@
-// import express from '../node_modules/express/index.js';
-// import path from '../node_modules/path/path.js';
-
-// function expo(dir, file, route, port) {
-//     const app = express();
-//     app.get(route, (req, res, next) => {
-//         res.sendFile(path.join(dir, file));
-//     });
-    
-//     app.listen(port, () => {
-//         console.log(`Server running at http://localhost:${port}/${route}`);
-//     });
-
-// }
-
+import fs from 'fs';
 import express from 'express';
 import path from 'path';
 import { fileURLToPath } from 'url';
-
 // Função para iniciar o servidor
 function expo(route, file, port) {
   const app = express();
@@ -34,9 +19,8 @@ function expo(route, file, port) {
     console.log(`listening on ${port}`);
   });
 }
+const appBuilder = fs.readFileSync('./app/main.kiwi', 'utf8');
 
-// Exportar a função para ser usada em outros módulos
-export { expo };
-
+eval(appBuilder);
 
 
