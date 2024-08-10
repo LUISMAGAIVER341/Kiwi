@@ -1,2 +1,2 @@
 # Kiwi
-The Kiwi Flavour for Typescript
+The Kiwi Flavour for Javascript
