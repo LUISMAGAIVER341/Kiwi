@@ -1,8 +1,8 @@
 {
   "name": "kiwi-desktop-app-dev",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
-  "description": "The Kiwi Flavour for Typescript",
+  "description": "The Kiwi Flavour for Javascript",
   "main": "app.js",
   "scripts": {
     "tauri": "tauri",
