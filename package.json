@@ -1,9 +1,10 @@
 {
   "name": "kiwi-desktop-app-dev",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "type": "module",
-  "description": "The Kiwi Flavour for Javascript",
-  "main": "app.js",
+  "description": "The Kiwi Flavour for Javascript (version Cocoa)",
+  "main": "main.cjs",
+  
   "scripts": {
     "tauri": "tauri",
     "test": "echo \"Error: no test specified\" && exit 1"
